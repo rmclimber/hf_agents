@@ -1,0 +1,9 @@
+name: hf_agents
+channels: 
+- defaults
+dependencies:
+- python=3.12
+- pip
+- pip:
+  - torch
+  - transformers
